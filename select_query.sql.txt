@@ -1,0 +1,17 @@
+
+USE library;
+
+-- Select all users
+SELECT * FROM Users;
+
+-- Select all staff members
+SELECT * FROM Staffs;
+
+-- Select all feedback
+SELECT * FROM Feedback;
+
+-- Select staff members with a specific rating
+SELECT s.STAFF_ID, s.NAME, f.RATINGS
+FROM Staffs s
+JOIN Feedback f ON s.STAFF_ID = f.STAFF_ID
+WHERE f.RATINGS > 8;

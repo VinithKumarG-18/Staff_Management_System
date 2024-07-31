@@ -1,0 +1,15 @@
+
+
+USE library;
+
+-- Delete a user
+DELETE FROM Users
+WHERE USER_ID = 'Vinith19';
+
+-- Delete a staff member
+DELETE FROM Staffs
+WHERE STAFF_ID = 5006;
+
+-- Delete feedback for a staff member
+DELETE FROM Feedback
+WHERE STAFF_ID = 5006;

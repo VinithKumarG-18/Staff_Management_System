@@ -1,0 +1,13 @@
+
+
+USE library;
+
+-- Update contact information for a staff member
+UPDATE Staffs
+SET CONTACT = '8888888888'
+WHERE STAFF_ID = 5003;
+
+-- Update ratings for a staff member
+UPDATE Feedback
+SET RATINGS = 9
+WHERE STAFF_ID = 5005;

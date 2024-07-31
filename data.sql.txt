@@ -1,0 +1,18 @@
+
+
+USE library;
+
+INSERT INTO Users (USER_ID, NAME, PASSWORD, CONTACT) VALUES
+('Vinith19', 'Vinith', 'Vinith2004', '9360239400');
+
+INSERT INTO Staffs (STAFF_ID, NAME, CONTACT) VALUES
+(5003, 'Kaviya', '9874563210'),
+(5004, 'Kabilan', '9999999999'),
+(5005, 'Aravindhan', '7778889994'),
+(5006, 'Pranesh', '9874213654');
+
+INSERT INTO Feedback (STAFF_ID, RATINGS) VALUES
+(5003, 10),
+(5004, 10),
+(5005, 7),
+(5006, 8);
