@@ -19,5 +19,5 @@ The Staff Management System is a Java-based application developed using NetBeans
 
 ### Clone the Repository
 ```sh
-git clone https://github.com/yourusername/staff-management-system.git
+git clone https://github.com/VinithKumarG-18/staff-management-system.git
 cd staff-management-system
